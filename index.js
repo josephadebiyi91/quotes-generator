@@ -16,3 +16,9 @@ function getQuote(){
 }
 
 next.addEventListener('click',getQuote);
+
+function btn(){
+    text = document.getElementById('qoute-box');
+    text.style.transform = 'scale(1.1)'
+    
+}
